@@ -1,0 +1,149 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #F0F0F0 ;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.searchinput{
+    display: flex;
+    margin-top: 40px;
+    background-color: white;
+    margin-left: 90px;
+  
+}
+
+.noti #icon{
+    color: grey;
+    font-size: 30px;
+}
+
+.noti #messenger{
+    color: grey;
+    font-size: 30px;
+}
+
+.avatar{
+    border: 1px solid grey;
+}
+
+.search input{
+    display: flex;
+    border: none;
+    background-color: #F0F0F0;
+    justify-content: space-evenly;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    font-size: 16px;
+    height: 37px;
+    width: 350px;
+    outline: none;
+  
+}
+
+.search input:active{
+    outline: none;
+}
+
+.searchicon{
+    height: auto;
+    width:"auto";
+    color: grey;
+    display: grid;
+    place-items: end;
+    margin-bottom: 5px;
+  
+}
+
+
+.operation {
+    display: flex;  
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 3rem;
+    color: whitesmoke;
+    height: 160px;
+    width: 47%;
+  }
+  
+  .operation--transfer {
+    background-image: linear-gradient(to top left, #4949FF, #7879FF);
+    margin-top: 12px;
+    
+  }
+  
+  .operation--cash {
+    background-image: linear-gradient(to top left, #BF40BF, #B589D6);
+    margin-top: 12px;
+   
+  }
+  .operation--expense {
+    background-image: linear-gradient(to top left, #A3A3FF, #BFBFFF);
+    margin-top: 12px;
+  }
+  
+  .operation--margin {
+    background-image: linear-gradient(to top left, #57C84D, #ABE098);
+    margin-top: 12px;
+  }
+
+.noti{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ width: 18%;
+ margin-left: 180px;
+ margin-bottom: 20px;
+}
+
+.firstGraph{
+    width:450px;
+    height: 400px;
+    background-color: lavender;
+}
+.subgraph{
+    width: 200px;
+    background-color: lavender;
+}
+ .graphs{
+  display: flex;
+  flex-direction: row;
+ }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    height:130px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    overflow: auto;
+}
+.subContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+}
