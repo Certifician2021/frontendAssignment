@@ -69,7 +69,7 @@
     border-radius: 1rem;
     padding: 3rem;
     color: whitesmoke;
-    height: 160px;
+    height: 155px;
     width: 47%;
   }
   
@@ -105,16 +105,35 @@
 }
 
 .firstGraph{
-    width:450px;
-    height: 400px;
+    display: flex;
+    width:40%;
+    flex-direction: column;
+    height: 350px;
+    border-radius: 8px;
     background-color: lavender;
 }
 .subgraph{
-    width: 200px;
-    background-color: lavender;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:350px;
+    border-radius: 8px;
+    background-color: lavender ;
+}
+
+.bar{
+    margin-top: 50px;
+    margin-left: 18px;
+    width: 150px;
 }
  .graphs{
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items:center;
+  height: 400px;
+  justify-content: space-around;
   flex-direction: row;
  }
 

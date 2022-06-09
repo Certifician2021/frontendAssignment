@@ -5,6 +5,7 @@ import NotificationsNoneSharpIcon from '@mui/icons-material/NotificationsNoneSha
 import {TbBrandMessenger} from "react-icons/tb"
 import Avatar from 'react-avatar';
 import BarCharts from './BarCharts';
+import ProgressBar from './ProgressBar';
 
 
 function MainBody() {
@@ -49,9 +50,12 @@ function MainBody() {
 
         </div>
      <div className='graphs'>
-         <div className="firstGraph"><BarCharts /></div>
-         <div className='subgraph'>2 graphsss</div>
-         <div className='subgraph'>3 graphssss</div> 
+         <div className="firstGraph">
+           <h2 style={{fontSize:"14px",padding:"10px"}}>AP and AR Balance<br/><span style={{fontSize:"10px"}}>25th Aug 2022</span></h2>
+           <BarCharts />
+           </div>
+         <div className='subgraph'><h2 style={{fontSize:"14px",padding:"10px"}}> % of Income Budget</h2><div className='bar'><ProgressBar text="Budget" percentage={67}/></div><br/><a style={{paddingLeft:"40px"}} href="#">view full report</a></div>
+         <div className='subgraph'><h2 style={{fontSize:"14px",padding:"10px"}}> % of Expenses Budget</h2><div className='bar'><ProgressBar text="Profit" percentage={48}/><br/><a style={{paddingLeft:"20px"}} href="#">view full report</a></div></div>
      </div>
 
       </div>
